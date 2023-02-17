@@ -11,6 +11,9 @@
     "url": "https://github.com/xhelpers/xhelpers-front.git",
     "directory": "packages/react"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@craco/craco": "^7.0.0",
     "@emotion/react": "^11.10.6",
@@ -32,5 +35,5 @@
     "redux-saga": "^1.2.2",
     "yup": "^1.0.0"
   },
-  "gitHead": "eebdb213a8c43d66365482703d1754554f8c576a"
+  "gitHead": "b69755edec1d75b056df4815dd0a0e300aca4dcd"
 }
