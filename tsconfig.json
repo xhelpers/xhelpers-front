@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@xhelpers-front/react": ["./packages/react/src"],
+      "@xhelpers-front/react/*": ["./packages/react/src/*"]
+    },
+    "types": ["node"]
+  },
+  "exclude": ["**/.*/", "**/build", "**/node_modules", "docs/export"]
+}
