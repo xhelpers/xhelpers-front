@@ -1,0 +1,33 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "build:dev": "dotenv -e .env.development craco build",
+    "build:prod": "dotenv -e .env.production craco build",
+    "build:hom": "dotenv -e .env.staging craco build",
+    "dev": "craco start",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xhelpers-front/react": "^0.0.10"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
