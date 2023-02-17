@@ -1,6 +1,7 @@
 {
   "name": "@xhelpers-front/react",
   "description": "> TODO: description",
+  "private": false,
   "version": "0.0.5",
   "license": "ISC",
   "homepage": "https://github.com/xhelpers/xhelpers-front.git#readme",
@@ -30,5 +31,6 @@
     "redux": "^4.2.1",
     "redux-saga": "^1.2.2",
     "yup": "^1.0.0"
-  }
+  },
+  "gitHead": "eebdb213a8c43d66365482703d1754554f8c576a"
 }
